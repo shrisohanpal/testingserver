@@ -1,0 +1,352 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.sectionone .navbar {
+  background: white;
+  /* background: white; */
+}
+.sectionone .navbar .navbar-toggler {
+color: #e37d1d;  
+border-color:#e37d1d;
+background-color: #e37d1d;
+}
+@media(max-width:991px){
+  .sectionone .navbar .navbar-brand{
+      font-size: 12px;
+  }
+}
+.sectionone .carousel .carousel-inner .carousel-item{
+  height: 400px;
+}
+@media(max-width:756px){
+  .sectionone #carouselExampleCaptions .carousel-inner .carousel-item {
+    height: 300px;
+    }
+}
+.sectionone .navbar .navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+/* code for top carosel img one */
+.sectionone .carousel .carousel-inner .carousel-item .mybannerscrol{
+background-image: url('../images/mysiteone.jpg');
+-webkit-background-size:cover;
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+height:auto;
+}
+/* code for top carosel img two */
+.sectionone .carousel .carousel-inner .carousel-item .mybannerscrolone{
+  background-image: url('../images/mysiteone.jpg');
+  -webkit-background-size:cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height:400px;
+}
+/* code for top carosel img three */
+.sectionone .carousel .carousel-inner .carousel-item .mybannerscroltwo{
+  background-image: url('../images/mysitetwo.jpg');
+  -webkit-background-size:cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height:400px;
+}
+.sectionone .carousel .carousel-inner .carousel-item .carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  color: #fff;
+  text-align: center;
+  font-family: poppins;
+  background: rgba(0, 0, 0, 0.8);
+}
+.sectionone .carousel .carousel-inner .carousel-item .carousel-caption h5{
+  font-size: 70px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+@media only screen and (max-width:767px){
+  .sectionone .carousel .carousel-inner .carousel-item .carousel-caption h5{
+  font-size: 20px;
+  }
+}
+.sectionone .carousel .carousel-inner .carousel-item .carousel-caption .myspan{
+color: #e37d1d;  
+}
+.sectionone .carousel .carousel-inner .carousel-item .carousel-caption a{
+  background: #e37d1d;
+  padding:15px 35px;
+  display: inline-block;
+  margin-top: 15px;
+  text-transform: uppercase;
+  border-radius: 25px;
+  color: #fff;
+  
+}
+
+.sectionone .carousel .carousel-indicators .active{
+background-color: #e37d1d;
+}
+/*section one end section two start ----------------------------------------------------------------------------- */
+.sectionz{
+  background-color: #e37d1d;
+}
+.sectionz p{
+ text-align: center;
+ font-weight: 600;
+}
+/* sectionx */
+.sectionx{
+  background-color: #606060;
+  color: white;
+}
+.sectionx h2{
+  padding-top: 10px;
+  color: #e37d1d; 
+}
+/* section f */
+.sectionf{
+  background-color: #606060;
+}
+.sectionf .myinnercontent{
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+.sectionf .myinnercontent h2{
+color: #e37d1d;
+}
+.sectionf .myinnercontent p{
+  color:white;
+ 
+}
+.sectionf .myinnercontent a{
+  background-color: #e37d1d;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  box-shadow: 2px 5px 8px black;
+ 
+}
+/* sectiong */
+.sectiong{
+  margin-top: 10px;
+}
+/* section five start */
+.sectionfive .mymainrow .datarightside img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer{
+  background-color: #e37d1d;
+ 
+  width: 100%;
+}
+/* .myfooter #footer .socialsection .social-links{
+border: 2px solid black;
+
+} */
+.myfooter #footer .socialsection .social-links .fa-instagram{
+  color: #e84393;
+ background-color: #fff;
+
+  padding: 3px;
+
+  /* box-shadow: 1px 4px 2px 2px #dcdde1; */
+  transition: all 2s;
+}
+.myfooter #footer .socialsection .social-links .fa-instagram:hover{
+  transform: scale(2);
+}
+.myfooter #footer .socialsection .social-links .fa-youtube{
+  color: #e84118;
+
+  background-color: #fff;
+  padding: 3px;
+
+  /* box-shadow: 1px 4px 2px 2px #dcdde1; */
+  transition: all 2s;
+}
+.myfooter #footer .socialsection .social-links .fa-youtube:hover{
+  transform: scale(2);
+}
+.myfooter #footer .socialsection .social-links .fa-facebook{
+  background-color: #fff;
+  padding: 3px;
+  
+  /* box-shadow: 1px 4px 2px 2px #dcdde1; */
+  transition: all 2s;
+  
+}
+.myfooter #footer .socialsection .social-links .fa-facebook:hover{
+  transform: scale(2);
+}
+.myfooter #footer .socialsection .social-links .fa-linkedin{
+  background-color: #fff;
+
+  padding: 3px;
+
+  /* box-shadow: 1px 4px 2px 2px #dcdde1; */
+  transition: all 2s;
+}
+.myfooter #footer .socialsection .social-links .fa-linkedin:hover{
+  transform: scale(2);
+}
+.myfooter #footer .socialsection .social-links .fa-twitter{
+  background-color: #fff;
+  
+  padding: 3px;
+
+  /* box-shadow: 1px 4px 2px 2px #dcdde1; */
+  transition: all 2s;
+}
+.myfooter #footer .socialsection .social-links .fa-twitter:hover{
+  transform: scale(2);
+}
+.footer #footer .footer-top .container-fluid .row .footer-contact h3{
+  font-size: 15px;
+  font-weight: 700;
+}
+.footer #footer .footer-top .container-fluid .row .footer-contact p{
+  font-size: 15px;
+  font-weight: 700;
+ 
+}
+@media(max-width:991px){
+  .footer #footer .footer-top .container-fluid .row .footer-contact h3{
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .footer #footer .footer-top .container-fluid .row .footer-contact p{
+    font-size: 15px;
+    font-weight: 700;
+  }
+}
+/* 11111111111111111111111111111111111111 enquiry pulse */
+.centerwala .pulsewala{
+  width: 50px;
+  height: 50px;
+  background: #ffef03;
+  position:fixed;
+  right: 10px;
+  bottom: 10px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  line-height: 100px;
+  font-family: Verdana;
+  animation: myanimatedataone 3s linear infinite;
+  z-index: 11111111111111111111111111;
+ 
+}
+@keyframes myanimatedataone {
+  0%{
+    box-shadow: 0 0 0 0 rgba(255,255,0,.7), 0 0 0 0 rgba(255,255,0,.7);  
+  }
+  40%{
+      box-shadow: 0 0 0 50px rgba(255,109,74,0), 0 0 0 0 rgba(255,255,0, 0.7);  
+  }
+  80%{
+      box-shadow: 0 0 0 50px rgba(255,109,74,0), 0 0 0 30px rgba(255,109,74,0);  
+  }
+  100%{
+      box-shadow: 0 0 0 0 rgba(255,109,74,0), 0 0 0 30px rgba(255,109,74,0);  
+  }
+}
+/* whatsapp */
+.centerwalatwo .pulsewalatwo{
+  width: 52px;
+  height: 52px;
+  /* background: green; */
+  position:fixed;
+  left: 10px;
+  bottom: 10px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  line-height: 100px;
+  font-family: Verdana;
+  animation: myanimatedata 3s linear infinite;
+  z-index: 11111111111111111111111111;
+  }
+  @keyframes myanimatedata {
+  0%{
+    box-shadow: 0 0 0 0 rgba(0,255,74,.7), 0 0 0 0 rgba(0,255,74,.7);  
+  }
+  40%{
+      box-shadow: 0 0 0 50px rgba(255,109,74,0), 0 0 0 0 rgba(0,255,0,.7);  
+  }
+  80%{
+      box-shadow: 0 0 0 50px rgba(255,109,74,0), 0 0 0 30px rgba(255,109,74,0);  
+  }
+  100%{
+      box-shadow: 0 0 0 0 rgba(255,109,74,0), 0 0 0 30px rgba(255,109,74,0);  
+  }
+  }
+  /*section one end section two start ----------------------------------------------------------------------------- */
+.sectionz{
+background-color: #e37d1d;
+}
+.sectionz p{
+text-align: center;
+font-weight: 600;
+}
+/* sectionx */
+.sectionx{
+
+background-color: #606060;
+color: white;
+}
+.sectionx h2{
+padding-top: 10px;
+color: #e37d1d; 
+}
+/* section f */
+.sectionf{
+background-color: #606060;
+}
+.sectionf .myinnercontent{
+margin-top: 20px;
+padding-bottom: 20px;
+}
+.sectionf .myinnercontent h2{
+color: #e37d1d;
+
+}
+.sectionf .myinnercontent p{
+color:white;
+
+}
+.sectionf .myinnercontent a{
+background-color: #e37d1d;
+padding: 10px;
+color: black;
+text-decoration: none;
+box-shadow: 2px 5px 8px black;
+
+}
+/* sectiong */
+.sectiong{
+margin-top: 10px;
+}
+/* section five start */
+.sectionfive .mymainrow .datarightside img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+/* product slider */
+
+

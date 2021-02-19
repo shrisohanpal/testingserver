@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.sectionone .navbar {
+  background:black;
+  /* background: white; */
+}
+.sectionone .navbar .navbar-toggler {
+  color: #e37d1d;  
+  border-color:#e37d1ded;
+  background-color: #e37d1d;
+  }
+/* section c */
+.sectionc h2{
+padding-top:10px;
+}
+.sectionone .carousel .carousel-inner .carousel-item img{
+    height:400px;
+    }
+    @media(max-width:991px){
+        .sectionone .carousel .carousel-inner .carousel-item img{
+            height:300px;
+            }
+    }
+.sectionc .myparad{
+    font-weight: 800;
+}
+/* sectionaa */
+.sectionaa{
+ background-color: #e37d1d;
+}
+/* section d */
+.sectiond{
+    background-color: #f1f2f1; 
+    padding-top:10px;
+}
+/* sectione */
+.sectione .row .mydataset{
+padding-top: 8px;
+}
+/* section f */
+.sectionf{
+    background-color: #606060;
+}
+.sectionf .myinnercontent{
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.sectionf .myinnercontent h2{
+ color: #e37d1d;
+
+}
+.sectionf .myinnercontent p{
+    color:white;
+   
+}
+.sectionf .myinnercontent a{
+    background-color: #e37d1d;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    box-shadow: 2px 5px 8px black;
+   
+}
+/* sectiong */
+.sectiong{
+    margin-top: 10px;
+}
+.footer{
+  background-color: #e37d1d;
+ 
+  width: 100%;
+}
+  /* .myfooter #footer .socialsection .social-links{
+  border: 2px solid black;
+  
+} */
+.myfooter #footer .socialsection .social-links .fa-instagram{
+    color: #e84393;
+   background-color: #fff;
+  
+    padding: 3px;
+  
+    /* box-shadow: 1px 4px 2px 2px #dcdde1; */
+    transition: all 2s;
+  }
+  .myfooter #footer .socialsection .social-links .fa-instagram:hover{
+    transform: scale(2);
+  }
+  .myfooter #footer .socialsection .social-links .fa-youtube{
+    color: #e84118;
+  
+    background-color: #fff;
+    padding: 3px;
+  
+    /* box-shadow: 1px 4px 2px 2px #dcdde1; */
+    transition: all 2s;
+  }
+  .myfooter #footer .socialsection .social-links .fa-youtube:hover{
+    transform: scale(2);
+  }
+  .myfooter #footer .socialsection .social-links .fa-facebook{
+    background-color: #fff;
+    padding: 3px;
+    
+    /* box-shadow: 1px 4px 2px 2px #dcdde1; */
+    transition: all 2s;
+    
+  }
+  .myfooter #footer .socialsection .social-links .fa-facebook:hover{
+    transform: scale(2);
+  }
+  .myfooter #footer .socialsection .social-links .fa-linkedin{
+    background-color: #fff;
+  
+    padding: 3px;
+  
+    /* box-shadow: 1px 4px 2px 2px #dcdde1; */
+    transition: all 2s;
+  }
+  .footer #footer .footer-top .container-fluid .row .footer-contact h3{
+    font-size: 25px;
+   
+  }
+  .footer #footer .footer-top .container-fluid .row .footer-contact p{
+    font-size: 20px;
+   
+  }
+  @media(max-width:991px){
+    .footer #footer .footer-top .container-fluid .row .footer-contact h3{
+      font-size: 16px;
+    
+    }
+    .footer #footer .footer-top .container-fluid .row .footer-contact p{
+      font-size: 15px;
+     
+    }
+  }
+  .myfooter #footer .socialsection .social-links .fa-linkedin:hover{
+    transform: scale(2);
+  }
+  .myfooter #footer .socialsection .social-links .fa-twitter{
+    background-color: #fff;
+    
+    padding: 3px;
+  
+    /* box-shadow: 1px 4px 2px 2px #dcdde1; */
+    transition: all 2s;
+  }
+  .myfooter #footer .socialsection .social-links .fa-twitter:hover{
+    transform: scale(2);
+  }
+  /* .myfooter #footer .socialsection .social-links{
+    border: 2px solid black;
+    
+  } */
+  /* card inside  */
+.sectionfour .row .col-md-4 .card .card-body .sendandprint {
+color: green;
+  }
+    /* 11111111111111111111111111111111111111 enquiry pulse */
+.centerwala .pulsewala{
+  width: 50px;
+  height: 50px;
+  background: #ffef03;
+  position:fixed;
+  right: 10px;
+  bottom: 10px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  line-height: 100px;
+  font-family: Verdana;
+  animation: myanimatedataone 3s linear infinite;
+  z-index: 11111111111111111111111111;
+ 
+}
+@keyframes myanimatedataone {
+  0%{
+    box-shadow: 0 0 0 0 rgba(255,255,0,.7), 0 0 0 0 rgba(255,255,0,.7);  
+  }
+  40%{
+      box-shadow: 0 0 0 50px rgba(255,109,74,0), 0 0 0 0 rgba(255,255,0, 0.7);  
+  }
+  80%{
+      box-shadow: 0 0 0 50px rgba(255,109,74,0), 0 0 0 30px rgba(255,109,74,0);  
+  }
+  100%{
+      box-shadow: 0 0 0 0 rgba(255,109,74,0), 0 0 0 30px rgba(255,109,74,0);  
+  }
+}
+/* whatsapp */
+.centerwalatwo .pulsewalatwo{
+  width: 52px;
+  height: 52px;
+  /* background: green; */
+  position:fixed;
+  left: 10px;
+  bottom: 10px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  line-height: 100px;
+  font-family: Verdana;
+  animation: myanimatedata 3s linear infinite;
+  z-index: 11111111111111111111111111;
+  }
+  @keyframes myanimatedata {
+  0%{
+    box-shadow: 0 0 0 0 rgba(0,255,74,.7), 0 0 0 0 rgba(0,255,74,.7);  
+  }
+  40%{
+      box-shadow: 0 0 0 50px rgba(255,109,74,0), 0 0 0 0 rgba(0,255,0,.7);  
+  }
+  80%{
+      box-shadow: 0 0 0 50px rgba(255,109,74,0), 0 0 0 30px rgba(255,109,74,0);  
+  }
+  100%{
+      box-shadow: 0 0 0 0 rgba(255,109,74,0), 0 0 0 30px rgba(255,109,74,0);  
+  }
+  }
+
+  
+
+
